@@ -1,0 +1,1 @@
+/Users/paymahn/.zprezto/runcoms/zshrc
