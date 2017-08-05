@@ -9,6 +9,7 @@ filetype off
 
 " Setup FZF
 set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim

@@ -9,6 +9,7 @@ filetype off
 
 " Setup FZF
 set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 
 " directory for plugins
 call plug#begin('~/.local/share/nvim/plugged')
@@ -25,7 +26,7 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'wincent/terminus'
 Plug 'altercation/vim-colors-solarized'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " All of your Plugins must be added before the following line
 call plug#end()
