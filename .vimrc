@@ -35,6 +35,13 @@ Plugin 'wincent/terminus'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'junegunn/fzf.vim'
+Plugin 'maralla/completor.vim'
+Plugin 'wincent/vim-clipper'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'tpope/vim-surround'
+Plugin 'w0rp/ale'
+Plugin 'ternjs/tern_for_vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -236,9 +243,10 @@ let g:TerminusCursorShape = 0
 
 
 " FZF - overwrites command-t for now
-"let $FZF_DEFAULT_COMMAND= "ag -g ''"
-nmap <leader>t :FZF<CR>
+nmap <leader>t :Files<CR>
 nmap <leader>a :Tags<CR>
+nmap <leader>b :Buffers<CR>
+
 nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
 nmap <leader>fq :q!<CR>
@@ -250,9 +258,16 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
 endif
 
+" prefer ripgrep over the silver searcher
+if executable('rg')
+  " Use ripgrepg
+  set grepprg=ag\ --nogroup\ --nocolor
+endif
+
 " Configuration for ~/.vimrc:
 " Bind <leader>y to forward last-yanked text to Clipper
-nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
+"nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
+nmap <leader>y <Plug>(ClipperClip)
 
 " Returns true if paste mode is enabled
 function! HasPaste()
@@ -280,3 +295,13 @@ let g:gitgutter_diff_args = 'HEAD~1'
 let g:gitgutter_max_signs = 2048
 
 let g:tmux_navigator_save_on_switch=2
+
+" Completion support for completer.vim
+let g:completor_python_binary='/usr/local/bin/python3'
+let g:completor_node_binary='/usr/local/bin/node'
+
+" use tab to select from completion
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
+
