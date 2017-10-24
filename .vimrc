@@ -90,8 +90,6 @@ set nosol
 set tags=tags;/
 "set iskeyword=@,45,48-57,58,_,192-255,#
 
-"set background=dark
-
 " Set Line numbers on
 set number
 set relativenumber
@@ -120,19 +118,6 @@ set nowb
 " Keep undo history across sessions, by storing in file.
 "set undodir=~/.vim/backups
 "set undofile
-
-" [FB-ONLY]
-" Can't set SELinux security context on nfs, which FB homedirs use, so
-" override the default location
-let undo_base_dir = $HOME . '/local/.vim/'
-for directory in ["backup", "swap", "undo"]
-  silent! call mkdir(undo_base_dir . directory, "p")
-endfor
-let &backupdir = undo_base_dir . '/backup//'
-let &directory = undo_base_dir . '/swap//'
-let &undodir = undo_base_dir . '/undo//'
-" Keep undo history across sessions, by storing in file. This never works
-set undofile
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -211,17 +196,6 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr> 
 
-" Toggle NerdTree on and off
-nmap <silent> <F3> :NERDTreeTabsToggle<CR>
-map <C-n> :NERDTreeTabsToggle<CR>
-let NERDTreeShowHidden=1
-
-" Get Smooth Scrolling to work - requires vim-smooth-scroll plugin
-"noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 40, 4)<CR>
-"noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 40, 4)<CR>
-"noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 40, 8)<CR>
-"noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 40, 8)<CR>
-
 " indentline stuff - requires indentline plugin
 "let g:indentLine_color_term = 239
 let g:indentLine_color_term = 250 " for solarized light
@@ -260,11 +234,6 @@ let g:notes_conceal_code = 0
 " disable insert cursor change from Terminus Plugin
 let g:TerminusCursorShape = 0
 
-" toggle tagbar plugin
-"nmap <leader>g :TagbarToggle<CR>
-"let g:tagbar_left = 1
-"let g:tagbar_width = 50
-"let g:tagbar_foldlevel = 1
 
 " FZF - overwrites command-t for now
 "let $FZF_DEFAULT_COMMAND= "ag -g ''"
@@ -275,25 +244,10 @@ nmap <leader>q :q<CR>
 nmap <leader>fq :q!<CR>
 nmap <leader>s :A<CR>
 
-" Ctrlp
-"nmap <leader>t :CtrlP<CR>
-nmap <leader>b :CtrlPBuffer<CR>
-nmap <leader>r :CtrlPMRU<CR>
-let g:ctrlp_max_files = 300000
-let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:25,results:25'
-let g:ctrlp_cmd='CtrlP :pwd'
-let g:ctrlp_lazy_update = 210
-
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
   " Use Ag over Grep
   set grepprg=ag\ --nogroup\ --nocolor
-
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag -l --nocolor -g "" %s'
-
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
 endif
 
 " Configuration for ~/.vimrc:

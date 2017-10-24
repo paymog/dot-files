@@ -28,6 +28,7 @@ alias rz="source ~/.zshrc"
 alias ez="$EDITOR ~/.zshrc"
 alias ezp="$EDITOR ~/.zpreztorc"
 alias et="$EDITOR ~/.tmux.conf"
+alias ev="$EDITOR ~/.vimrc"
 #alias vim='nvim'
 alias env='$EDITOR ~/.config/nvim/init.vim'
 
