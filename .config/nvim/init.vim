@@ -26,7 +26,11 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'wincent/terminus'
 Plug 'altercation/vim-colors-solarized'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+Plug '907th/vim-auto-save'
+
 
 " All of your Plugins must be added before the following line
 call plug#end()
@@ -35,6 +39,20 @@ call plug#end()
 filetype indent plugin on
 syntax enable
 
+let g:auto_save = 1
+
+" " Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+" " Paste from clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
+
 "set background=dark
 set background=light
 set t_Co=256  " 256 term coloring
@@ -42,6 +60,13 @@ let g:solarized_termtrans = 1
 let g:solarized_termcolors=16
 "let g:solarized_visibility='high'
 "let g:solarized_contrast = 'high'
+
+" start deoplete at startup
+let g:deoplete#enable_at_startup = 1
+" use tab to forward cycle
+inoremap <silent><expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+" use tab to backward cycle
+inoremap <silent><expr><s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
 
 colorscheme solarized
 
@@ -290,7 +315,8 @@ endif
 
 " Configuration for ~/.vimrc:
 " Bind <leader>y to forward last-yanked text to Clipper
-nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
+"nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
+noremap <leader>y "*yy
 
 " Returns true if paste mode is enabled
 function! HasPaste()

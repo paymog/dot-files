@@ -20,8 +20,8 @@ export KEYTIMEOUT=1
 unsetopt CORRECT
 
 # vim default editor
-export VISUAL='/usr/local/bin/nvim'
-export EDITOR='/usr/local/bin/nvim'
+export VISUAL='/usr/local/bin/vim'
+export EDITOR='/usr/local/bin/vim'
 
 # aliases
 alias rz="source ~/.zshrc"
@@ -36,5 +36,13 @@ export FZF_DEFAULT_OPTS='
 --color info:33,prompt:33,pointer:166,marker:166,spinner:33
 '
 
+# git aliases
+alias gst='git status'
+alias gaa='git add --all'
+alias gd='git diff'
+alias gco='git checkout'
+alias gp='git push'
+alias gl='git pull'
+alias gc='git commit'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
