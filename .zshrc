@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# add genymotion to my path for react native android simulation
+export PATH=$PATH:/Applications/Genymotion.app/Contents/MacOS/tools/
+
 # vim mode
 bindkey -v
 export KEYTIMEOUT=1

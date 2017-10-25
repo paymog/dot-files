@@ -42,6 +42,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'ternjs/tern_for_vim'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -50,8 +51,14 @@ call vundle#end()
 filetype indent plugin on
 syntax enable
 
-"set background=dark
-set background=light
+" allow jsx in js files
+let g:jsx_ext_required = 0
+
+" let ale use eslint
+" let g:ale_linters = {'javascript': ['eslint']}
+
+set background=dark
+"set background=light
 set t_Co=256  " 256 term coloring
 let g:solarized_termtrans = 1
 let g:solarized_termcolors=16
