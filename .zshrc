@@ -13,7 +13,7 @@ fi
 # Customize to your needs...
 
 # add genymotion to my path for react native android simulation
-export PATH=$PATH:/Applications/Genymotion.app/Contents/MacOS/tools/
+export PATH=$PATH:/Applications/Genymotion.app/Contents/MacOS/tools
 
 # vim mode
 bindkey -v
@@ -56,4 +56,11 @@ alias gp='git push'
 alias gl='git pull'
 alias gc='git commit'
 
+# tmux aliases
+alias tnew="tmux new -s"
+alias ta="tmux a -t"
+alias tl="tmux ls"
+alias tk="tmux kill-session -t"
+
+#bindkey -e
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -35,7 +35,7 @@ Plugin 'wincent/terminus'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 Plugin 'junegunn/fzf.vim'
-Plugin 'maralla/completor.vim'
+" Plugin 'maralla/completor.vim'
 Plugin 'wincent/vim-clipper'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
@@ -43,6 +43,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'w0rp/ale'
 Plugin 'ternjs/tern_for_vim'
 Plugin 'mxw/vim-jsx'
+Plugin 'valloric/youcompleteme'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()
