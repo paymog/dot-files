@@ -21,12 +21,12 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'aly006/a.vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Yggdroot/indentLine'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'xolox/vim-misc'
 "Plugin 'airblade/vim-gitgutter'
 "Plugin 'ihacklog/HiCursorWords'
 Plugin 'christoomey/vim-tmux-navigator'
+
 Plugin 'octol/vim-cpp-enhanced-highlight'
 " cursor shape change, mouse support, focus reporting, bracketed paste, etc
 Plugin 'wincent/terminus'
@@ -267,6 +267,7 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
 endif
 
+
 " prefer ripgrep over the silver searcher
 if executable('rg')
   " Use ripgrepg
@@ -303,7 +304,7 @@ let g:EasyMotion_smartcase = 1
 let g:gitgutter_diff_args = 'HEAD~1'
 let g:gitgutter_max_signs = 2048
 
-let g:tmux_navigator_save_on_switch=2
+let g:tmux_navigator_save_on_switch = 2
 
 " Completion support for completer.vim
 let g:completor_python_binary='/usr/local/bin/python3'

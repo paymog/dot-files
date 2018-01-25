@@ -62,5 +62,8 @@ alias ta="tmux a -t"
 alias tl="tmux ls"
 alias tk="tmux kill-session -t"
 
+# utility aliases
+alias grepp="grep -iIrnp"
+
 #bindkey -e
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
