@@ -9,6 +9,8 @@ backup of my dotfiles
 4) make the symlink
 
 # how to make this work
+make sure to clone recursively
+
 need to manually create symlinks to the dotfiles in this repo to home directory
 
 also need to manually create symlinks to the files in .zprezto/runcoms for
