@@ -24,3 +24,7 @@ want zsh related files to look like:
 .zshenv -> /Users/paymahn/.zprezto/runcoms/zshenv
 .zshrc -> /Users/paymahn/.zprezto/runcoms/zshrc
 
+
+# karabiner
+
+Make sure to link the karabiner folder into ~/.config
