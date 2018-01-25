@@ -2,55 +2,50 @@
 " Of course
 set nocompatible
 
-" Turn things on.  We need to run `filetype off` first because vim defaults
-" to `filetype on`, and unless we toggle it, our custom filetype detections
-" won't be run.
-filetype off
-
 " Setup FZF
 set rtp+=~/.fzf
 set rtp+=/usr/local/opt/fzf
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" auto install vim-plug if it doesn't exist
+ if empty(glob('~/.vim/autoload/plug.vim'))
+   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+ endif
 
-" run :PluginInstall to install once Vundle is configured
-Plugin 'VundleVim/Vundle.vim' " let Vundle manage Vundle
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'aly006/a.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'Yggdroot/indentLine'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'xolox/vim-misc'
-"Plugin 'airblade/vim-gitgutter'
-"Plugin 'ihacklog/HiCursorWords'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'octol/vim-cpp-enhanced-highlight'
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'aly006/a.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'Yggdroot/indentLine'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'xolox/vim-misc'
+"Plug 'airblade/vim-gitgutter'
+"Plug 'ihacklog/HiCursorWords'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'octol/vim-cpp-enhanced-highlight'
 " cursor shape change, mouse support, focus reporting, bracketed paste, etc
-Plugin 'wincent/terminus'
-"Plugin 'henrik/vim-indexed-search'
-"Plugin 'majutsushi/tagbar'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-Plugin 'junegunn/fzf.vim'
-" Plugin 'maralla/completor.vim'
-Plugin 'wincent/vim-clipper'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'tpope/vim-surround'
-Plugin 'w0rp/ale'
-Plugin 'ternjs/tern_for_vim'
-Plugin 'mxw/vim-jsx'
-Plugin 'valloric/youcompleteme'
+Plug 'wincent/terminus'
+"Plug 'henrik/vim-indexed-search'
+"Plug 'majutsushi/tagbar'
+Plug 'altercation/vim-colors-solarized'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'junegunn/fzf.vim'
+" Plug 'maralla/completor.vim'
+Plug 'wincent/vim-clipper'
+Plug 'airblade/vim-gitgutter'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-surround'
+Plug 'w0rp/ale'
+Plug 'ternjs/tern_for_vim'
+Plug 'mxw/vim-jsx'
+Plug 'valloric/youcompleteme'
+
+call plug#end()
 
 
-" All of your Plugins must be added before the following line
-call vundle#end()
-
-
-filetype indent plugin on
 syntax enable
 
 " allow jsx in js files
@@ -117,10 +112,6 @@ nnoremap k gk
 " Sets how many lines of history VIM has to remember
 set history=700
 
-" Enable filetype plugins
-filetype on
-filetype plugin on
-filetype indent on
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -211,6 +202,9 @@ noremap gb :ls<CR>:b<Space>
 map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr> 
+
+" cancel search highlighting with double slash
+map // :noh<cr>
 
 " indentline stuff - requires indentline plugin
 "let g:indentLine_color_term = 239
