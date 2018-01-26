@@ -7,12 +7,12 @@
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json",
   "rules": [
     {
-      "description": "CapsLock to Hyper/Escape paymahn test",
+      "description": "CapsLock to Hyper/Escape",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "left_control",
+            "key_code": "caps_lock",
             "modifiers": {
               "optional": [
                 "any"
