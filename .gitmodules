@@ -1,3 +1,6 @@
 [submodule ".zprezto"]
 	path = .zprezto
 	url = https://github.com/paymog/prezto.git
+[submodule "Capslock"]
+	path = Capslock
+	url = https://github.com/paymog/Capslock
