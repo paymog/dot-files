@@ -271,7 +271,8 @@ endif
 " Configuration for ~/.vimrc:
 " Bind <leader>y to forward last-yanked text to Clipper
 "nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
-nmap <leader>y <Plug>(ClipperClip)
+"nmap <leader>y <Plug>(ClipperClip)
+vnoremap <leader>y :w !pbcopy<cr>
 
 " Returns true if paste mode is enabled
 function! HasPaste()
