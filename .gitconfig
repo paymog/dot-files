@@ -1,2 +1,8 @@
 [user]
-	name = test
+	email = paymahn1@gmail.com
+	name = Paymahn Moghadasian
+[branch]
+	autosetuprebase = always
+[push]
+	recurseSubmodules = on-demand
+
