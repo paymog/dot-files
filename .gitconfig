@@ -3,3 +3,5 @@
 	name = Paymahn Moghadasian
 [branch]
 	autosetuprebase = always
+[push]
+	recurseSubmodules = on-demand
