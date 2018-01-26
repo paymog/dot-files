@@ -18,6 +18,7 @@ zprezto to work
 
 want zsh related files to look like:
 
+```
 .zlogin -> /Users/paymahn/.zprezto/runcoms/zlogin
 .zlogout -> /Users/paymahn/.zprezto/runcoms/zlogout
 .zprezto -> /Users/paymahn/dot-files/.zprezto
@@ -25,6 +26,7 @@ want zsh related files to look like:
 .zprofile -> /Users/paymahn/.zprezto/runcoms/zprofile
 .zshenv -> /Users/paymahn/.zprezto/runcoms/zshenv
 .zshrc -> /Users/paymahn/.zprezto/runcoms/zshrc
+```
 
 
 # karabiner
