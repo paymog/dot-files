@@ -203,6 +203,12 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr> 
 
+" manage splits
+nnoremap vs :vsp<cr>
+nnoremap hs :sp<cr>
+
+
+
 " cancel search highlighting with double slash
 map // :noh<cr>
 
