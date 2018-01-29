@@ -19,7 +19,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'aly006/a.vim'
 Plug 'scrooloose/nerdcommenter'
-Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'xolox/vim-misc'
 "Plug 'airblade/vim-gitgutter'
@@ -211,11 +210,6 @@ nnoremap hs :sp<cr>
 
 " cancel search highlighting with double slash
 map // :noh<cr>
-
-" indentline stuff - requires indentline plugin
-"let g:indentLine_color_term = 239
-let g:indentLine_color_term = 250 " for solarized light
-let g:indentLine_char = '┆'
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1

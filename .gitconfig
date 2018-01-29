@@ -5,4 +5,5 @@
 	autosetuprebase = always
 [push]
 	recurseSubmodules = on-demand
+	default = current
 
