@@ -204,7 +204,7 @@ map gd :bd<cr>
 
 " manage splits
 nnoremap vs :vsp<cr>
-nnoremap hs :sp<cr>
+nnoremap sp :sp<cr>
 
 
 
