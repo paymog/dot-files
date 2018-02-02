@@ -205,6 +205,10 @@ map gd :bd<cr>
 " manage splits
 nnoremap vs :vsp<cr>
 nnoremap sp :sp<cr>
+nnoremap <leader>r <c-w>=
+
+" open vimrc from vim
+nnoremap gv :e ~/.vimrc<cr>
 
 
 
