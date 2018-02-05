@@ -1,0 +1,85 @@
+
+" Display.
+set ruler           " show cursor position
+set showcmd         " show normal mode commands as they are entered
+set showmode        " show editing mode in status (-- INSERT --)
+set showmatch       " flash matching delimiters
+
+" Scrolling.
+"set scrolljump=5    " scroll five lines at a time vertically
+set sidescroll=10   " minumum columns to scroll horizontally
+set scrolloff=8    " start scrolling 15 from bott
+
+" Indent.
+set autoindent      " carry indent over to new lines
+
+" Other.
+set noerrorbells      " no bells in terminal
+
+set backspace=indent,eol,start  " backspace over everything
+
+" Set Line numbers on
+set number
+set relativenumber
+
+" Move to next displayed line instead of actual line
+nnoremap j gj
+nnoremap k gk
+
+
+" highlight current line curosr is on
+set cursorline
+
+" ignore case when searching
+set ignorecase
+
+" When searching try to be smart about cases
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Makes search act like search in modern browsers
+set incsearch
+
+" Always show the status line
+set laststatus=2
+
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+"let mapleader = ","
+"let g:mapleader = ","
+let mapleader= " "
+let g:mapleader= " "
+
+nmap <Space>t :action GotoFile<CR>
+nmap <Space>d :action GotoDeclaration<CR>
+nmap <Space>a :action GotoSymbol<CR>
+" why doesnt the below work?
+"nmap <Space>r :action ReformatCode<CR>
+nmap <C-]> :action GotoImplementation<CR>
+
+" to get ctrl-i and ctrl-o working
+" https://youtrack.jetbrains.com/issue/VIM-44
+
+" just use ctrl-/
+"nmap <Space>cc :action CommentByLineComment<cr>
+
+" my buffer settings
+nnoremap <silent> gp gT
+nnoremap <silent> gn gt
+nnoremap <silent> gd :action CloseContent<CR>
+
+
+"nnoremap <Space>f :action ReformatSelection<CR>
+
+" to get ctrlo/ctrl-i context jumps
+"https://stackoverflow.com/questions/29834788/ctrlt-ctrlo-not-working-right
+
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+nnoremap <c-h> <c-w>h
+
+nnoremap <leader>v <c-w>v
+nnoremap <leader>h :split<cr>
