@@ -52,9 +52,9 @@ set laststatus=2
 let mapleader= " "
 let g:mapleader= " "
 
-nmap <Space>t :action GotoFile<CR>
-nmap <Space>d :action GotoDeclaration<CR>
-nmap <Space>a :action GotoSymbol<CR>
+nmap <leader>t :action GotoFile<CR>
+nmap <leader>d :action GotoDeclaration<CR>
+nmap <leader>a :action GotoSymbol<CR>
 " why doesnt the below work?
 "nmap <Space>r :action ReformatCode<CR>
 nmap <C-]> :action GotoImplementation<CR>
@@ -65,7 +65,7 @@ nmap <C-]> :action GotoImplementation<CR>
 " just use ctrl-/
 "nmap <Space>cc :action CommentByLineComment<cr>
 
-" my buffer settings
+" tab switching/closing
 nnoremap <silent> gp gT
 nnoremap <silent> gn gt
 nnoremap <silent> gd :action CloseContent<CR>
