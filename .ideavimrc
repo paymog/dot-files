@@ -42,6 +42,9 @@ set hlsearch
 " Makes search act like search in modern browsers
 set incsearch
 
+" disable beeps
+set visualbell
+
 " Always show the status line
 set laststatus=2
 
