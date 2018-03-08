@@ -86,3 +86,6 @@ nnoremap <c-h> <c-w>h
 
 nnoremap <leader>v <c-w>v
 nnoremap <leader>h :split<cr>
+
+" easy highlight disable
+noremap <leader>/ :noh<cr>

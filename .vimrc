@@ -19,6 +19,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'aly006/a.vim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'xolox/vim-misc'
 "Plug 'airblade/vim-gitgutter'
@@ -41,7 +42,7 @@ Plug 'w0rp/ale'
 Plug 'ternjs/tern_for_vim'
 Plug 'mxw/vim-jsx'
 Plug 'valloric/youcompleteme'
-
+Plug 'slashmili/alchemist.vim'
 call plug#end()
 
 
@@ -53,7 +54,7 @@ let g:jsx_ext_required = 0
 " let ale use eslint
 " let g:ale_linters = {'javascript': ['eslint']}
 
-set background=dark
+set background=light
 "set background=light
 set t_Co=256  " 256 term coloring
 let g:solarized_termtrans = 1
@@ -210,6 +211,7 @@ nnoremap <leader>r <c-w>=
 " open vimrc from vim
 nnoremap gv :e ~/.vimrc<cr>
 
+map <leader>n :NERDTreeToggle<cr>
 
 
 " cancel search highlighting with double slash
@@ -269,7 +271,7 @@ endif
 " prefer ripgrep over the silver searcher
 if executable('rg')
   " Use ripgrepg
-  set grepprg=ag\ --nogroup\ --nocolor
+  set grepprg=rg\ --nogroup\ --nocolor
 endif
 
 " Configuration for ~/.vimrc:
@@ -277,7 +279,6 @@ endif
 "nnoremap <leader>y :call system('nc localhost 8377', @0)<CR>
 "nmap <leader>y <Plug>(ClipperClip)
 vnoremap <leader>y :w !pbcopy<cr><cr>
-set clipboard=unnamedplus
 
 " Returns true if paste mode is enabled
 function! HasPaste()
