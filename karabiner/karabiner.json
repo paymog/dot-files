@@ -1079,7 +1079,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'PyCharm'"
+                                        "shell_command": "open -a 'PyCharm CE'"
                                     }
                                 ],
                                 "type": "basic"
@@ -1212,6 +1212,7 @@
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
+                "country_code": 0,
                 "keyboard_type": "ansi"
             }
         }
