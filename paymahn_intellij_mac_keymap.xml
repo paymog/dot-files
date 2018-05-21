@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X 10.5+ copy 1" parent="Mac OS X 10.5+">
+<keymap version="1" name="Paymahn OS X" parent="Mac OS X 10.5+">
   <action id="CompareTwoFiles" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta d" />
