@@ -32,3 +32,7 @@ want zsh related files to look like:
 # karabiner
 
 Make sure to link the karabiner folder into ~/.config
+
+# intellij
+
+link to /Users/paymahn/Library/Preferences/PyCharm2018.1/keymaps
