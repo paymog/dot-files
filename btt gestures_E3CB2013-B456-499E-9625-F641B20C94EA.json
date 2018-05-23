@@ -1,17 +1,134 @@
 {
   "BTTPresetName" : "btt gestures_E3CB2013-B456-499E-9625-F641B20C94EA",
-  "BTTPresetUUID" : "0B5B70D4-1633-4CB9-9454-2D07E13F730A",
-  "BTTPresetContent" : [
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppSpecificSettings" : {
-
-      },
-      "BTTTriggers" : [
-
-      ]
+  "BTTGeneralSettings" : {
+    "disableScrollingIf3" : true,
+    "BTTForceNormalClickPressure5F" : 200,
+    "disableScrollingIf2" : true,
+    "BTTDidRegisterForUpdateStats" : "2.503",
+    "BTTShowControlStrip" : true,
+    "BTTShowControlStripItem" : true,
+    "BTTForceForceClickPressure5F" : 600,
+    "oldScale" : 1,
+    "BSTSnapAreaDefaultBorderWidth" : 3,
+    "BTTThreeFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTEnableUsageLogging" : true,
+    "BSTTopMissionControlTreshold" : 34,
+    "BTTForceNormalClickPressure" : 150,
+    "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
+    "BTTLastClamshellState" : false,
+    "BSTSnapAreaDefaultShowPictogram" : false,
+    "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
+    "BTTShowESCWhenControlStripHidden" : true,
+    "BTTHandleThumbsRestingOnTopEdgeAndCorners" : true,
+    "BTTFreeSpaceAfterBTT" : 20,
+    "BTTForceNormalClickPressure3F" : 150,
+    "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "singleFingerTapRight" : 0.05000000074505806,
+    "BTTDrawingsHighlightStartPoint" : true,
+    "BSTWindowGrabPosX" : 67,
+    "BTTForceForceClickPressure4F" : 650,
+    "BTTHTTPServerListenInterface" : "127.0.0.1",
+    "BTTAutoSwitchToOldKeyboardImplementation" : true,
+    "BTTMinDrawingMovement" : 2,
+    "BSTSnapAreaDefaultBackgroundColor" : "129.988836, 201.126536, 227.013985, 104.550000",
+    "batteryWarning" : false,
+    "SIRIScrollSpeed" : 1,
+    "pluginDictionary" : {
+      "1" : {
+        "Apple Remote Plugin" : {
+          "10" : "Play\/Pause, Holding (only on aluminum remote)",
+          "2" : "Up, Holding",
+          "3" : "Down",
+          "11" : "Menu",
+          "4" : "Down, Holding",
+          "5" : "Left",
+          "12" : "Menu, Holding",
+          "6" : "Left, Holding",
+          "13" : "Center",
+          "7" : "Right",
+          "8" : "Right, Holding",
+          "14" : "Center, Holding",
+          "1" : "Up",
+          "9" : "Play\/Pause (only on aluminum remote)"
+        }
+      }
     },
+    "BTTTouchBarFontSize" : 15,
+    "BTTSelectedKeyboardTabIndex" : 0,
+    "BSTSnapAreaDefaultDashedBorder" : false,
+    "BSTDontShowSnapAreasWhileModMoving" : 0,
+    "BTTForceForceClickPressure3F" : 700,
+    "BTRScrollSpeed" : 1,
+    "showBTTRemoteTab" : true,
+    "BSTSnapAreaDefaultInvisible" : false,
+    "BTTEnablePalmRecognition" : true,
+    "BTTFreeSpaceAfterESC" : 10,
+    "singleFingerTapLeft" : 0.44999998807907104,
+    "BTTForceForceClickPressure" : 700,
+    "BTTDefaultTBIconHeight" : 22,
+    "mmZoomRepeatDelay" : 0.10000000000000001,
+    "twoFingerDoubleTapDelay" : 0.5,
+    "BTTForceForceClickPressure2F" : 700,
+    "useAppleRemotePlugin" : true,
+    "BSTSnapAreaDefaultCornerRadius" : 20,
+    "BTTForcedHidden" : false,
+    "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
+    "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
+    "BSTMemorySaver" : true,
+    "BSTWindowGrabPosY" : 10,
+    "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
+    "showTouchBarTab" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612,
+    "showOtherTriggersTab" : true,
+    "BTTDrawingStrokeWidth" : 4,
+    "BTTPathSampleSize" : 100,
+    "BTTMaxAllowedDrawingRotation" : 30,
+    "BTRMouseSpeed" : 1,
+    "BTTDrawingsRestoreMousePosition" : true,
+    "BTTCMOnTop" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612,
+    "showTrackpadTab" : true,
+    "BTTMovePastedToTop" : true,
+    "BTTShowBTTWhenControlStripHidden" : true,
+    "BTTDrawingAreaWidth" : 915,
+    "BTTCopyImgurURLToClipboard" : true,
+    "BTTForceNormalClickPressure4F" : 175,
+    "BTTScreenshotOpenImgurInBrowser" : true,
+    "BTTTwoFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTIMGURDefault" : true,
+    "BTTForceForceHapticResponse" : 13,
+    "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
+    "showNormalMiceTab" : true,
+    "BSTDisableSnapAreas" : false,
+    "BTTForceNormalHapticResponse" : 12,
+    "showSiriRemoteTab" : true,
+    "BTTForceNormalClickPressure2F" : 140,
+    "cornerSnap" : true,
+    "showDrawingsTab" : true,
+    "BTTDrawingRightMouse" : true,
+    "BSTCornerRoundness" : 40,
+    "BTTDismissIfNothingToShow" : true,
+    "BSTPreventTopMissionControl" : true,
+    "BTTNumberOfStarts" : 1584,
+    "BTTHTTPServerEncrypted" : false,
+    "showKeyboardTab" : true,
+    "BTTConvertedDevices" : true,
+    "BTTTiltWheelDelay" : 0.44999998807907104,
+    "BTTDaysToKeepHistory" : 14,
+    "BTTFilterMagicMouseLeftRightEdge" : true,
+    "showMagicMouseTab" : true,
+    "BTTDefaultTBIconWidth" : 22,
+    "SIRIMouseSpeed" : 1,
+    "BTTRemoteEnabled" : true,
+    "BTTTouchBarChecked" : true,
+    "BTTDrawingAreaHeight" : 626,
+    "tpThreeFingerDoubleTapDelay" : 0.5,
+    "BTTTouchBarVisible" : false,
+    "BTTTouchBarUseMonoSpacedFont" : true,
+    "nextMonitorMoveWarningShowed" : true
+  },
+  "BTTPresetUUID" : "9E8F60F2-7645-4274-AE51-E95005925A21",
+  "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -24,160 +141,8 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "126",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 40,
-          "BTTShortcutModifierKeys" : 393216,
-          "BTTOrder" : 12,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "Maximize Window",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 40,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 2,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 100,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 19,
-          "BTTPredefinedActionName" : "Maximize Window Left",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 102,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "Maximize Window",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 19,
-          "BTTPredefinedActionName" : "Maximize Window Left",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 4,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "Maximize Window Right",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 133,
-          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,13",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 11,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 92,
-          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 124,
-          "BTTShortcutModifierKeys" : 10223616,
-          "BTTOrder" : 9,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 90,
-          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 126,
-          "BTTShortcutModifierKeys" : 10223616,
-          "BTTOrder" : 7,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 91,
-          "BTTPredefinedActionName" : "Resize Window to Bottom Left Quarter \/ Corner",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 123,
-          "BTTShortcutModifierKeys" : 10223616,
-          "BTTOrder" : 6,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "124",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 393216,
-          "BTTOrder" : 13,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 132,
-          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "56,55,17",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 12,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 93,
-          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 125,
-          "BTTShortcutModifierKeys" : 10223616,
-          "BTTOrder" : 8,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "123",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 0,
           "BTTShortcutKeyCode" : 4,
           "BTTShortcutModifierKeys" : 393216,
@@ -186,45 +151,38 @@
           "BTTAlternateIconData" : ""
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 47,
-          "BTTPredefinedActionName" : "Move Window to Next Monitor",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 35,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 4,
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 125,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 8,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 84,
-          "BTTPredefinedActionName" : "Restore Old Window Size",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 38,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 5,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 47,
-          "BTTPredefinedActionName" : "Move Window to Next Monitor",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 45,
-          "BTTShortcutModifierKeys" : 1966080,
-          "BTTOrder" : 3,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 101,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
           "BTTPredefinedActionType" : 20,
           "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 1310720,
           "BTTOrder" : 2,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
@@ -235,10 +193,235 @@
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "125",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 0,
           "BTTShortcutKeyCode" : 38,
           "BTTShortcutModifierKeys" : 393216,
           "BTTOrder" : 11,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 45,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 3,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 92,
+          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 124,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 9,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 4,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "126",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 40,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 12,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 132,
+          "BTTTriggerTypeDescription" : "TipTap Left (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,17",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 12,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 90,
+          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 126,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 7,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 13,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 35,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 4,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 84,
+          "BTTPredefinedActionName" : "Restore Old Window Size",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 38,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 5,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 91,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Left Quarter \/ Corner",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutModifierKeys" : 10223616,
+          "BTTOrder" : 6,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 133,
+          "BTTTriggerTypeDescription" : "TipTap Right (2 Fingers Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 11,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         }
@@ -258,90 +441,17 @@
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "59,56,48",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 3,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 104,
-          "BTTTriggerTypeDescription" : "3 Finger Tap",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 2,
-          "BTTPredefinedActionName" : "CMD(⌘)+Click",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 114,
-          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "59,48",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 2,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 124,
-          "BTTTriggerTypeDescription" : "1 Finger Tap Top Middle",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,15",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
           "BTTOrder" : 0,
           "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.google.Chrome",
-      "BTTAppName" : "Google Chrome",
-      "BTTAppSpecificSettings" : {
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
 
-      },
-      "BTTTriggers" : [
-        {
-          "BTTTriggerType" : 114,
-          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "59,48",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 113,
-          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "59,56,48",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 124,
-          "BTTTriggerTypeDescription" : "1 Finger Tap Top Middle",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,15",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 3,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
         },
         {
           "BTTTriggerType" : 104,
@@ -349,10 +459,36 @@
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
           "BTTPredefinedActionType" : 2,
           "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
           "BTTOrder" : 2,
           "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled2" : 1,
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
         }
       ]
     },
@@ -369,10 +505,17 @@
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
           "BTTPredefinedActionType" : 2,
           "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
-          "BTTOrder" : 0,
+          "BTTOrder" : 2,
           "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
         },
         {
           "BTTTriggerType" : 114,
@@ -381,10 +524,17 @@
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "59,48",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
-          "BTTOrder" : 0,
+          "BTTOrder" : 1,
           "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
         },
         {
           "BTTTriggerType" : 113,
@@ -393,22 +543,17 @@
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled2" : 1,
           "BTTEnabled" : 1,
           "BTTOrder" : 0,
           "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerType" : 124,
-          "BTTTriggerTypeDescription" : "1 Finger Tap Top Middle",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,15",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
         }
       ]
     }
