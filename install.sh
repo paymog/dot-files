@@ -1,4 +1,19 @@
 #! /bin/bash
+set -e
+
+echo "Installing brew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "Tapping cask"
+brew tap homebrew/cask
+
+echo "Installing brew packages"
+brew install fzf mosh python3 ripgrep solidity tmux zsh
+
+echo "Installing casks"
+brew cask install alfred bettertouchtool docker evernote google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle macvim pycharm rescuetime slack spotify sublime-text 
+
+echo "Configuring system"
 
 mkdir -p $HOME/.config
 ln -s $HOME/dot-files/karabiner $HOME/.config
