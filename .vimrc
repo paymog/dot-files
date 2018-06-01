@@ -41,7 +41,7 @@ Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'ternjs/tern_for_vim'
 Plug 'mxw/vim-jsx'
-Plug 'valloric/youcompleteme'
+"Plug 'valloric/youcompleteme'
 Plug 'slashmili/alchemist.vim'
 call plug#end()
 

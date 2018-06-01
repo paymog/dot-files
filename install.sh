@@ -11,7 +11,8 @@ echo "Installing brew packages"
 brew install fzf mosh python3 ripgrep tmux zsh
 
 echo "Installing casks"
-brew cask install alfred bettertouchtool docker evernote google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle macvim pycharm rescuetime slack spotify sublime-text 
+brew cask install alfred bettertouchtool docker evernote google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle pycharm rescuetime slack spotify sublime-text 
+brew install vim --with-override-system-vi --with-lua 
 
 echo "Configuring system"
 
@@ -33,4 +34,11 @@ ln -s $HOME/.zprezto/runcoms/zpreztorc $HOME/.zpreztorc
 ln -s $HOME/.zprezto/runcoms/zprofile $HOME/.zprofile
 ln -s $HOME/.zprezto/runcoms/zshenv $HOME/.zshenv
 ln -s $HOME/.zprezto/runcoms/zshrc $HOME/.zshrc
+
+sudo sh -c 'echo $(which zsh) >> /etc/shells'
+chsh -s $(which zsh)
+
+defaults write com.apple.Dock autohide-delay -float 5 && killall Dock
+
+ssh-keygen -t rsa -b 4096 -C "hello@paymahn.com"
 
