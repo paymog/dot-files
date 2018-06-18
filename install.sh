@@ -27,6 +27,9 @@ ln -s $HOME/dot-files/.tmux.conf $HOME/.tmux.conf
 ln -s $HOME/dot-files/.ideavimrc $HOME/.ideavimrc
 ln -s $HOME/dot-files/.vimrc $HOME/.vimrc
 
+ln -s $HOME/dot-files/.fzf.zsh $HOME/.fzf.zsh
+ln -s $HOME/dot-files/.fzf.bash $HOME/.fzf.bash
+
 ln -s $HOME/dot-files/.zprezto $HOME/.zprezto
 ln -s $HOME/.zprezto/runcoms/zlogin $HOME/.zlogin
 ln -s $HOME/.zprezto/runcoms/zlogout $HOME/.zlogout
@@ -38,7 +41,7 @@ ln -s $HOME/.zprezto/runcoms/zshrc $HOME/.zshrc
 sudo sh -c 'echo $(which zsh) >> /etc/shells'
 chsh -s $(which zsh)
 
-defaults write com.apple.Dock autohide-delay -float 5 && killall Dock
+defaults write com.apple.Dock autohide-delay -float 2 && killall Dock
 
 ssh-keygen -t rsa -b 4096 -C "hello@paymahn.com"
 

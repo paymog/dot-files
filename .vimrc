@@ -33,7 +33,7 @@ Plug 'wincent/terminus'
 Plug 'altercation/vim-colors-solarized'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'junegunn/fzf.vim'
-" Plug 'maralla/completor.vim'
+ Plug 'maralla/completor.vim'
 Plug 'wincent/vim-clipper'
 Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot'
@@ -252,13 +252,12 @@ let g:TerminusCursorShape = 0
 
 
 " FZF - overwrites command-t for now
-nmap <leader>t :Files<CR>
-nmap <leader>a :Tags<CR>
+nmap <leader>f :Files<CR>
+nmap <leader>t :Tags<CR>
 nmap <leader>b :Buffers<CR>
 
 nmap <leader>w :w<CR>
 nmap <leader>q :q<CR>
-nmap <leader>fq :q!<CR>
 nmap <leader>s :A<CR>
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
