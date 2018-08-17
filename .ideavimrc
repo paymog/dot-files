@@ -55,12 +55,12 @@ set laststatus=2
 let mapleader= " "
 let g:mapleader= " "
 
-nmap <leader>t :action GotoFile<CR>
+nmap <leader>f :action GotoFile<CR>
 nmap <leader>d :action GotoDeclaration<CR>
 nmap <leader>a :action GotoSymbol<CR>
+nmap <leader>i :action GotoImplementation<CR>
 " why doesnt the below work?
 "nmap <Space>r :action ReformatCode<CR>
-nmap <C-]> :action GotoImplementation<CR>
 
 " to get ctrl-i and ctrl-o working
 " https://youtrack.jetbrains.com/issue/VIM-44
