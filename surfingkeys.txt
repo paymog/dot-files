@@ -3,46 +3,37 @@ mapkey('<Ctrl-y>', 'Show me the money', function() {
     Front.showPopup('a well-known phrase uttered by characters in the 1996 film Jerry Maguire (Escape to close).');
 });
 
-// an example to replace `T` with `gt`, click `Default mappings` to see how `T` works.
-// map('gt', 'T');
+// an example to replace `u` with `?`, click `Default mappings` to see how `u` works.
+map('?', 'u');
 
 // an example to remove mapkey `Ctrl-i`
-// unmap('<Ctrl-i>');
+unmap('<Ctrl-i>');
 
-unmap('r');
-settings.hintAlign = "left";
-Hints.characters = 'asdfghjklrtin';
+// disabl refresh with r
+map('r', '')
 
-// disable emojis
-iunmap(":");
-
-// set theme
-settings.theme = `
-.sk_theme {
-    background: #000;
-    color: #fff;
-}
-.sk_theme tbody {
-    color: #fff;
-}
-.sk_theme input {
-    color: #d9dce0;
-}
-.sk_theme .url {
-    color: #2173c5;
-}
-.sk_theme .annotation {
-    color: #38f;
-}
-.sk_theme .omnibar_highlight {
-    color: #fbd60a;
-}
-.sk_theme ul>li:nth-child(odd) {
-    background: #1e211d;
-}
-.sk_theme ul>li.focused {
-    background: #4ec10d;
-}`;
 // click `Save` button to make above settings to take effect.
+// set theme
+settings.theme = '\
+.sk_theme { \
+    background: #fff; \
+    color: #000; \
+} \
+.sk_theme tbody { \
+    color: #000; \
+} \
+.sk_theme input { \
+    color: #000; \
+} \
+.sk_theme .url { \
+    color: #555; \
+} \
+.sk_theme .annotation { \
+    color: #555; \
+} \
+.sk_theme .focused { \
+    background: #f0f0f0; \
+}';
 
-// whoa
+settings.hintAlign = "left"
+Hints.characters = "asdfghjklrtyvn"
