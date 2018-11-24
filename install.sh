@@ -11,7 +11,10 @@ echo "Installing brew packages"
 brew install fzf mosh python3 ripgrep tmux zsh
 
 echo "Installing casks"
-brew cask install alfred bettertouchtool docker evernote google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle pycharm rescuetime slack spotify sublime-text 
+brew cask install alfred bettertouchtool docker evernote google-backup-and-sync
+google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2
+karabiner-elements kindle pycharm rescuetime slack spotify sublime-text
+protonmail-bridge thunderbird
 brew install vim --with-override-system-vi --with-lua 
 
 echo "Configuring system"
