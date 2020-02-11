@@ -4,6 +4,10 @@ unmap('<Ctrl-i>');
 // disabl refresh with r
 map('r', '')
 
+// disable emojis
+iunmap(":");
+
+
 // set theme
 settings.theme = `
 .sk_theme {
