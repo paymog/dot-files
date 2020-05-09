@@ -46,4 +46,3 @@ defaults write com.apple.Dock autohide-delay -float 2 && killall Dock
 ssh-keygen -t rsa -b 4096 -C "paymahn1@gmail.com"
 
 defaults write -g ApplePressAndHoldEnabled -bool false
-sudo mdutil -a -i off
