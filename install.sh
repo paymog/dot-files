@@ -37,6 +37,7 @@ ln -s $HOME/.zprezto/runcoms/zpreztorc $HOME/.zpreztorc
 ln -s $HOME/.zprezto/runcoms/zprofile $HOME/.zprofile
 ln -s $HOME/.zprezto/runcoms/zshenv $HOME/.zshenv
 ln -s $HOME/.zprezto/runcoms/zshrc $HOME/.zshrc
+ln -s $HOME/.zprezto/runcoms/workrc $HOME/.workrc
 
 sudo sh -c 'echo $(which zsh) >> /etc/shells'
 chsh -s $(which zsh)
