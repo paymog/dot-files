@@ -8,4 +8,10 @@
 	default = current
 [alias]
   co-pr = !sh -c 'git fetch upstream pull/$1/head:pr/$1 && git checkout pr/$1' -
+[url "ssh://git@github.com/DataDog/"]
+	insteadOf = https://github.com/DataDog/
+
+# for recrusive gitconfig in dd folders
+[includeIf "gitdir:~/go/src/"]
+  path = /Users/paymahn.moghadasian/go/src/github.com/DataDog/.gitconfig_include
 
