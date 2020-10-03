@@ -1,7 +1,0 @@
-<application>
-  <component name="GithubAccounts">
-    <account id="7b7eed43-1075-4d74-a998-3ecf7648e485" name="paymog">
-      <server host="github.com" />
-    </account>
-  </component>
-</application>
