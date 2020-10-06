@@ -1,0 +1,3 @@
+<keymap version="1" name="IntelliJ IDEA Classic copy" parent="Mac OS X">
+  <action id="EditorAddOrRemoveCaret" />
+</keymap>
