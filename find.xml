@@ -9,5 +9,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.proto</mask>
     <mask>*.bzl</mask>
+    <mask>*.md</mask>
   </component>
 </application>
