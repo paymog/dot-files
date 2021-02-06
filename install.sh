@@ -8,11 +8,10 @@ echo "Tapping cask"
 brew tap homebrew/cask
 
 echo "Installing brew packages"
-brew install fzf mosh python3 ripgrep tmux zsh
+brew install fzf mosh python3 ripgrep tmux zsh vim kubectl 
 
 echo "Installing casks"
-brew cask install alfred bettertouchtool docker evernote google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle pycharm rescuetime slack spotify sublime-text protonmail-bridge thunderbird
-brew install vim --with-override-system-vi --with-lua 
+brew cask install alfred bettertouchtool docker google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle pycharm slack spotify sublime-text brave-browser docker notion anki
 
 echo "Configuring system"
 

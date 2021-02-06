@@ -8,6 +8,8 @@
 	default = current
 [alias]
   co-pr = !sh -c 'git fetch upstream pull/$1/head:pr/$1 && git checkout pr/$1' -
+	cleanup = "!git branch --merged master | grep  -v '\\*\\|master\\|main|prod' | xargs -n 1 git branch -d"
+
 [url "ssh://git@github.com/DataDog/"]
 	insteadOf = https://github.com/DataDog/
 

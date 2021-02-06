@@ -162,7 +162,7 @@ set laststatus=2
 "set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
 " Line text past 80 char
-set textwidth=79
+" set textwidth=79
 "set colorcolumn=+1 " relative (to textwidth) columns to highlight "
 
 set colorcolumn=80 " absolute columns to highlight "

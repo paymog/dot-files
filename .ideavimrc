@@ -20,7 +20,6 @@ set backspace=indent,eol,start  " backspace over everything
 
 " Set Line numbers on
 set number
-set relativenumber
 
 " Move to next displayed line instead of actual line
 nnoremap j gj
