@@ -8,7 +8,7 @@ echo "Tapping cask"
 brew tap homebrew/cask
 
 echo "Installing brew packages"
-brew install fzf mosh python3 ripgrep tmux zsh vim kubectl 
+brew install fzf mosh python3 ripgrep tmux zsh vim kubectl sleepwatcher
 
 echo "Installing casks"
 brew cask install alfred bettertouchtool docker google-backup-and-sync google-chrome google-cloud-sdk gpg-suite intellij-idea iterm2 karabiner-elements kindle pycharm slack spotify sublime-text brave-browser docker notion anki
@@ -38,6 +38,8 @@ ln -s $HOME/.zprezto/runcoms/zshenv $HOME/.zshenv
 ln -s $HOME/.zprezto/runcoms/zshrc $HOME/.zshrc
 ln -s $HOME/.zprezto/runcoms/workrc $HOME/.workrc
 
+ln -s $HOME/dot-files/.sleep $HOME/.sleep
+
 sudo sh -c 'echo $(which zsh) >> /etc/shells'
 chsh -s $(which zsh)
 
@@ -46,3 +48,5 @@ defaults write com.apple.Dock autohide-delay -float 2 && killall Dock
 ssh-keygen -t rsa -b 4096 -C "paymahn1@gmail.com"
 
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+brew services start sleepwatcher

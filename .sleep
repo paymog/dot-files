@@ -1,0 +1,2 @@
+osascript -e 'tell application "Spotify" to quit'
+osascript -e 'tell application "Camo Studio" to quit'
